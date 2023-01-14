@@ -1,0 +1,275 @@
+﻿
+            Regresyon Testi nedir?
+
+            Bu test türünde yazılım üzerinde yapılan değişiklik sonucunda uygulama kodunun bozulup bozulmadığını
+doğrulamak için yapılan test türüdür. Değişiklik sonrasında mevcut özelliklerin çalışıp çalışmadığını kontrol etmek
+ için yapılan test türüdür.
+            1) Kısmi Regresyon Kısmi Regresyon, kodda değişiklikler yapıldığında ve bu birimin değişmemiş veya
+            halihazırda mevcut olan kodla entegre edildiğinde bile kodun iyi çalıştığını doğrulamak için yapılır.
+            2) Tam Regresyon, kodda bir dizi modülde bir değişiklik yapıldığında ve ayrıca başka herhangi bir modüldeki
+bir değişikliğin etkisinin belirsiz olması durumunda yapılır. Değiştirilen kod nedeniyle herhangi bir değişikliği
+ kontrol  etmek için ürün bir bütün olarak test edilir
+            Regresyon testi canlıda çalışan kodun üzerinde yapılan değişikliklerin kontrolü için kullanılır.
+Bu değişiklikler yeni bir fonksiyon, hata çözümü ya da performans geliştirmesi olabilir. Regresyon testleri genellikle
+değişiklikler son aşamaya geldiğinde ve yazılımın yeni sürümü yayınlamadan önce gerçekleştirilir. Regresyon testlerinin
+öncelikli amacı, uygulamanın kritik alanlarının hala beklendiği gibi çalıştığını kontrol etmektedir.
+            Regression test yeni gelen çözüm ve özelliklerin ürünün fonksyionlarında bir gerilemeye sebep olup olmadığı
+kontrol edilir. bu sebeple regression test daha çok sanity check ve/veya smoke test ardından koşulur bir testtir.
+        Regresyon testleri:
+             Yazılımın değişiklik sonrasında son kalitesinin kontrol edilmesini
+             Daha önce çıkan hataların düzeldiğinin kontrolünü
+             Yazılım ekibinin ürün hakkında güveninin artmasını sağlar.
+        Regresyon testleri maliyeti büyük testlerdir. Yazılım firmasında maliyet = zamandır ve sürümün hızlı
+şekilde canlı ortama aktarılması büyük önem taşır.
+
+
+            Entegrasyon Test ve Unit Test farkı nedir?
+
+          unit testler whiteBox testlerindendir. (big bang,artımlı)
+          unit testler Detaylı tasarım, veri modeli ve Kodlarla ilgilidir.
+          unit testleri genellikle kodu yazan yazılımcı tarafından gerçekleştirilir, entegrasyon testleri test uzmanları
+tarafından gerçekleştirilir.
+          entegrasyonu testleri, sistemler, paketler ve mikroservisler arasındaki etkileşimlere ve arayüzlere odaklanır.
+unit tesler entegresyon testlerinin aksine Bağımsız birimlere odaklanır.
+
+
+            Possmande otomasyon yaptınız mı? Yaptıysanız neler yaptınız?
+
+
+            Agile ve Waterfall farkı nedir?
+
+            Bir adım tamamlanıp yenisine geçildiğinde, bir önceki adıma geri dönülemez.
+Waterfall, her detayı aşama aşama ve belli bir zaman dahilinde planlar.
+Oysa Agile modelinde görece daha kısa vadeli planlardan bahsetmek mümkündür.
+Agile modelinde proje devam ettiği esnada değişiklikler söz konusu olabilir.
+Tüm aşamalar Şelale modelindeki gibi bariz değildir.
+            Waterfall metodunda görev sıraları birbirini takip eder. Tüm aşamalar birbirinin devamı niteliğindedir.
+Oysa Çevik proje yönetiminde süreç dinamiktir ve değişime açıktır.
+       Waterfall ın kullanımı ve yönetimi kolaydır. Gereksinimler iyi anlaşılır. Proje bilgisini aktarmak daha kolaydır.
+            Küçük projeler için daha etkili olabilir. Agile mgeniş projelere daha kolay entegre edilir.
+            Waterfall incelemelerinde dokümanlar ön plandadır. Her aşamanın tamamlanmasından sonra incelemeler yapılır.
+ Çevik modelince analizler, müşterilerle yapılan iletişim neticesinde sık sık gerçekleşmektedir.
+            Waterfall modelinde, üst adımlarda yapılan hataların yarattığı zaman kaybı oldukça fazladır.
+            Waterfall modelinin dezavantajlarının bir tanesi de, ürünün ortaya çıkması için tüm aşamaların
+tamamlanmasını beklemek zorunda kalmaktır.Bu durum; bazı sabırsız müşteriler için sorun teşkil edebilir.
+            Waterfall modelinin uzun vadede maliyeti artırma riski vardır. Agile ise ürüne dair en iyi versiyonu bekler.
+Bu nedenle de ürünle ilgili potansiyeli zorlar ve görece daha düşük riskler taşır.
+            Agile yaratıcılığa alan yaratır ve esnektir. Oysa Waterfall modelinde bundan söz etmek pek mümkün olmaz.
+
+
+            Manuel Test ile Otomasyon Test arasındaki farklar nelerdir?
+
+            Manuel test otomayon test aracı olmadan yapılır. Otomasyon testlerinde otomasyon araçları kullanılır.
+            Manuel testler geliştirilmekte olan yazılımdaki hataları bulmak için yapılır.
+otomasyon testi yapabilmek için yazılımın stabil hale gelmesi gerekir.
+            Manuel testlerde 1 kişi testleri komut olmadan adım adım yapar. Test uzmanları otomasyon testlerde
+testi yürütmek için kod yazarak test komut dosyaları oluştururlar.
+            Test kısa sürede ve sadece 1 kez kullanılacaksa manuel test en iyisidir. büyük bir projede ve tekrarlanacak
+testlerde otomasyon test yapmak daha akıllıca bir çözümdür. Manuel testler tekrar kullanılamazlar.
+            Manuel testlerde programlama dili bilmeye gerek yoktur. Otomasyon testlerde bilmek gereklidir.
+            Test uzmanı için manuel testler zaman alır otomasyon testler daha hızlıdır.
+            Manuel testleri insan yürüttüğü için hata riski yüksektir. insan hatası içermez.
+tamamen otomatiktir. manuel teste göre daha çok hata bulur.
+
+
+            Bug raporunda neler belirtilir?
+
+            En önemli şey o hata tekrar nasıl görüleceği belirtilmelidir. bug tekrar üretilebiliyor olmalı.
+            (Title): 'Kaydol' düğmesine tıklandığında uygulama kilitleniyor
+            (Description): Bir kullanıcı bir hesaba kaydolmaya çalıştığında uygulama çöküyor ve kullanıcı hesap
+            oluşturamıyor.
+            (Steps to Reproduce): Kayıt sayfasına gidin
+             > gerekli alanları doldurun
+             > 'Kaydol' CTA'sını tıklayın > uygulama kilitleniyor.
+            (Expected Result): Bir kullanıcı kayıt sayfasındayken, gerekli alanları doldurduğunda ve 'Kaydol'CTA'sını
+            tıkladığında, kullanıcı başarıyla bir hesap için kaydolmuştur.
+           (Actual Result): Bir kullanıcı kayıt sayfasındayken,gerekli alanları doldurup 'Kaydol' CTA'sını tıkladığında,
+           uygulama çöküyor ve kullanıcı hesap oluşturamıyor.
+           Görsel (Visual):Bir ekran görüntüsü, video veya herhangi bir görsel.
+           Öncelik (Priority): Yüksek, orta, düşük vb.
+
+            Bug aşamalarını anlatır mısınız?
+
+
+
+
+
+
+            Bug aşamalarını nasıl anlaşılır kılarsınız?
+
+
+
+
+
+
+
+            Gherkin nedir?
+
+            Gherkin bir plain-text language’dir. Yazılımcı olmayan kişiler tarafından öğrenilebilecek şekilde
+tasarlanmıştır. İçerisinde bazı anahtar kelimeleri kullanarak kısa ve düzgün bir hikaye anlatımı sağlanmaya
+çalışılmıştır. Cucumber,Gherkin adını verdiği, bir dil ile günlük konuşma diline yakın testler yazabilmeyi sağlar.
+Gherkin ile Given/When/Then ifadeleriyle test senaryoları yazılır.
+               given : davranışın gerçekleşmesi için gerekli başlangıç koşulları
+               when : davranışın gerçekleşmesi
+               then : davranışın sonuçları
+
+
+            Regresyon Testte dikkat etmeniz gereken ve ele almanız gereken şeyler nelerdir?
+
+      Regresyon testi sırasında kullanılması gereken en temel stratejiler;
+            -Yapılan değişikliklerin yan etkilerinin izlenmesi ve mevcut olan hatalarında  başka hatalar oluşturup-
+oluşturmadığını kontrol edilmesi
+            -Mevcut her hata ve değişiklik için ayrı bir regresyon test senaryosu oluşturulmalı.
+            -Birbirine benzeyen test senaryoları kontrol edilerek gereksiz ya da etkileri daha az olanlar kaldırılmalı
+ya da test öncelik sıralamaları değiştirilmeli.
+            -Tasarım ile ilgili olan alanlar da incelenmeli.
+            -Uygulamanın sistem üzerindeki etkileri izlenmelidir. (bellekler vb.)
+
+
+            Smoke Test ve Sanity Test arasındaki farklar nelerdir?
+
+            Smoke test, uygulamanın kritik fonksiyonlarını test etmektir. Diğer testler gibi senaryodan ziyade kontrol
+listesiyle kısaca test edilebilir. Burada amaç detaylı test değildir, uygulamanın kritik işlevlerinin çalışıp
+çalışmadığını kontrol etmektir. Eğer bir fonksiyon bile çalışmıyorsa test başarısız olmuştur. Test maliyeti düşüktür.
+Yeni sürümde test ortamında ve canlı ortamda uygulanabilir bir testtir. (Örneğin bir üniversitenin öğrenci bilgi
+sisteminde öğrenciler transkriptlerini göremiyorsa fakat diğer kritik işlevler çalışıyorsa bu uygulama smoke testde
+başarısız olmuştur. Bazı durumlarda diğer testlerden önce smoke test yapmak mantıklıdır.)
+            Sanity test ise kullanıcıya verilebilecek kadar olgun olan bir versiyon üzerine yeni eklenen bir özellik
+veya bug çözümü ardından yapılan ilk testtir. Aslında sadece bu özelliklerin ve bug'ların çözümü kontrol edilerek
+devamındaki testlere engel bir durum olup olmadığı test edilir.
+     Yani smoke test ile ürünün ana fonksiyonları, sanity check ile çözülen bug'ları ve eklenen özellikleri test edilir.
+     Sanity Testi Uygulama üzerinde küçük bir hata giderildiğinde veya küçük değişiklikler ardından yapılan testlerdir.
+Sanity testi test sürecinde uygulamanın bir iki işlevine odaklanırken duman testi tüm önemli işlevlerin çalıştığından
+emin olmak için yapılır. Bu test sayesinde hatalar daha erken bir aşamada keşfedilir
+
+
+            SDLC aşamaları nelerdir?
+
+            1) Planlama (Planning): SDLC'nin ilk aşaması planlamadır. Fizibilite çalışmaları yapılır. Projenin
+ihtiyaçları belirlenir, maliyetler hesaplanır, projenin faydaları ve riskleri hesaplanır. Müşteri ile birlikte
+gereksinimler belirlenir. projenin en düşük riski göz önünde bulundurarak nasıl başarılı bir şekilde uygulayabileceği
+ belirlenir.
+            2) Analiz (Analysis): Sistemin işlevlerinin ve gereksinimlerin ayrıntılı olarak incelenmesidir. Bu aşamada
+elde edilen veriler doküman haline getirilir. Ayrıca bu aşamada ekip çalışması çok önemlidir.
+            3) Tasarım (Design): Bu aşamada gereksinimlerinin analiz edilmesiyle yazılım sistemi tasarlanır.Tasarım
+aşamasında kodlama yapmak söz konusu değildir. Analiz aşamasında problemin ne olduğu belirlenirken tasarım aşamasında
+problemin nasıl çözüleceği belirlenir. Gereksinimleri karşılayan yazılım ürününün özellikleri, arayüzler ve yazılım
+ürününün faydaları, yetenekleri belirlenir. Mimari tasarımda yazılım ürününün genel bir planı yapılır ve modüller
+belirlenir. Ayrıntılı tasarımda yazılımda kullanılacak algoritmalar, programlama dilleri, veritabanları ve bunun gibi
+detaylar belirlenir.
+            4) Kodlama (lmplementation): Kodlama sürecinin başladığı aşamadır. Bu aşamanın önemli noktalardan
+birisi doğru kodlama yapılmasıdır. Doğru kodlama şekli bir başkasının da rahatça okuyabileceği ve bakım yapabileceği
+kodlar yazmaktır. Bu kodlama biçimi temiz kodlama (clean code) olarak adlandırılır.
+            5) Test (Testing): Bu aşamada gerçekleştirilmesi gereken önemli noktalardan biri, test etmektir. Kodlama
+ yapılırken ve kodlama sonrasında birçok test yapılır. Bu testlerden bazıları;birim testleri, zorlanım−performans testi,
+  yanlış değer testleri, tümleyim testi, kullanım senaryo testleri, yük testleri, kullanıcı kabul testi gibi testlerdir.
+ Ayrıca analiz aşamasından itibaren testler yapılması yazılım ürününde hata oranını azaltacağı için kaliteyi arttırır,
+ maliyetleri (para, zaman vb.) azaltır. Bu yaklaşım erken test yaklaşımı (early testing) olarak adlandırılır.
+            6) Teslim ve Bakım (Maintenance): Tüm aşamaların tamamlanmasının ardından yazılım ürünü müşteriye teslim
+edilir. Ürün teslim edilirken ürünle ilgili bilgiler, kullanım kılavuzu da müşteriye teslim edilir. Ürünün teslim
+edilmesi ile birlikte bakım aşaması başlar ve yazılım ürününün ömrü süresince devam eder. Bu süreçte hata giderme,
+altyapıları iyileştirme, ürüne yeni özellikler ekleme gibi bakım faaliyetleri yapılır.
+
+
+            Manuel Test yapıyorsunuz sayfa açılmıyor nasıl bir yol izlersiniz?
+
+
+
+
+
+
+
+            Test Case yazımı hakkında bilgi verir misiniz nelere dikkat etmelisiniz?
+
+            Test case’ler gereksinimlere göre hazırlanan input’lar, olaylar ya da aksiyonlar ve bunlar sonucu oluşması
+beklenen sonuçların belirtildiği dökümanlardır. Test case’ler yazılımın temellerini oluşturan gereksinimler ve
+dizayndaki problemlerin, eksikliklerin de ortaya çıkarılmasını sağlar.
+            En basit biçimde, bir test case, bir test yazılımının gereksinimleri karşılayıp karşılamadığını ve
+işlevlerini doğru bir şekilde yerine getirip getirmediğini belirlediği bir dizi koşul veya değişkendir.
+            Test case, bir tester’ ın gerçekleştirdiği yürütülebilir bir testtir. Tek tester aşamalar (step)
+ takip edilerek yapılır.
+            Bir test case, bir şeyin davranması gerektiği gibi davrandığını doğrulamak için bir dizi adım talimat olarak
+ düşünebilirsiniz.
+            Genellikle QA ekibinden tecrübeli biri test case’leri yazar.Test case hazırlamak için her ekip kendi
+standart şablonunu kullanır. Genelde manual testerlar yapar veaynı dökumanı kullanarak Automation Testerler
+scriptlerini (kodlarını) yazarlar.
+            Developerlar normalde bir test data oluştururlar veya hazır olan bir datayı BA’den veya PO’dan alırlar
+ sonra onu günceller ve geliştirirler.
+            Biz de kendimiz developerlardan alıp aynı test datayı geliştirir ve test ederiz. Veya Test Lead Acceptance
+Criteria’lara göre kendisi bir test data hazırlayabilir.
+
+
+
+            API'de status code'ler nelerdir?
+
+
+
+
+
+
+
+
+            Tester'ın rolleri nelerdir?
+
+            Test ettiği üründe, akışa uygun olmayan bölümleri tespit ederek ilgili birime bilgi aktarmak,
+            Programı test etmek için test senaryosu (test case) oluşturmak,
+            Her senaryoya denk gelen beklenen sonuçları analize göre oluşturmak,
+            Programın geliştirme aşamasından test aşamasına geçildiğinde istenilen sonuçla programdan dönen sonucun
+uymaması halinde, bu hatanın düzeltilmesini sağlayana kadar takip etmek,
+            Satışa çıkacak ya da kullanıma açılacak olan bir ürünün gerekli tüm testlerini gerçekleştirmek,
+            Hata raporlarını oluşturarak, gerekli düzenlemelerin yapılmasını sağlamak,
+            Gerekli düzenlemelerden sonra tekrar kontrollerini gerçekleştirmek,
+            Müşteri ve kullanıcı memnuniyetini göz önünde tutarak, analiz ve test aşamalarında gerekli
+düzenlemeleri sağlamak,
+            Ürünün son kullanıcıya çıkmadan önce tüm analiz ve testlerinde çıkan hataların düzeltilmesini sağlayarak,
+ hatasız ürünler sunmak
+
+
+            HTTP protokolü nedir?
+
+            HTTP (Hyper Text Transfer Protocol) Köprü metin aktarım protokolü anlamına gelir. HTTP Dünyada en yaygın
+ kullanılan protokoldür. HTTP internetteki web sayfalarını görüntülemek için kullanılan protokoldür.
+            HTTP vs HTTPS Arasındaki Farklar Nelerdir?
+            HTTP durumunda sertifika doğrulamaları gerekmezken HTTPS için SSL Serfikası’nın yetkili tarafından
+imzalanması ve uygulanması gereklidir.
+           HTTP kullanan bir sitenin URL’si http:// iken HTTPS kullanan sitenin URL’si https:// şeklindedir.
+          HTTPde herhangi bir şifreleme bulunmazken HTTPSde tüm veriler gönderilmeden ve alınmadan önce şifrelenmektedir.
+           HTTP şifresiz çalıştığından tüm bilgiler açık metin olarak gönderilmektedir. Ancak HTTPS protokolü
+bağlantılarda gizli dinlemeyi önlemek amacıyla kullanılabilmektedir.
+             HTTP veri transferini port 80 üzerinden kullanırken HTTPS bu işlemi port 443 üzerinden gerçekleştirmektedir.
+             HTTP güvenli değilken HTTPS güvenli bir protokoldür.
+             HTTP etki alanının doğrulanmasını gerektirmez ancak HTTPS aksine etki alanlarının doğrulanmasını ve yasal
+ işlem gerektiren sertifikaların varlığını gerektirmektedir.
+             HTTP siteler yeşil bir kilit işareti ile gösterilirken HTTPS siteler uyarı şeklinde kırmızı bir
+ ‘Güvenli Değil’ yazısı ile gösterilmektedir.
+
+
+            Soap ve Rest farkı nedir?
+
+            SOAP standartlaştırılmış net bir protokol adıdır. REST ise HTTP üzerine kurulan servislere tavsiyeler
+ olarak nitelendirilebilir. SOAP standardında, web servisi tanımlayan format olan WSDL ile Java,.Net ve SAP ABAP
+ ortamlarında çok kolay hem server hem client üretilebilir.Bu yöntem "contract-first design" olarak adlandırılmaktadır.
+            REST servislerinin avantajı basitliğindedir. Server-Client ilişkisini netleştirmek, dokümante etmek ve
+otomatik kod oluşturma için Swagger, RAML gibi standartlar çıkıyor. Dokümantasyon konusunda çok işe yarıyorlar. Ancak
+"contract-first design" mantığıyla tüm mesaj yapısını tanımlarken karmaşıklıklarıyla bu standartların SOAP'tan farkı
+kalmamaktadır. Bu noktada REST servislerin SOAP'tan avantajlı olduğu tek nokta JSON kullanmak olabilir.
+            SOAP XML veri tipini desteklerken REST istenen veri türüyle işlem yapabilir. JSON veri tipi ile XML’den çok
+daha düşük boyutlarla veri tutulabildiği için REST ile daha hızlı işlem yapılabilir.
+            SOAP için WSDL ile tanımlama yapmak gerekirken REST için böyle bir zorunluluk yoktur.
+(WADL REST için kullanılan WSDL’e benzer bir yapıdır fakat kullanma zorunluluğu yoktur.) Bir dile ihtiyaç duymadan
+HTTP metodlarıyla tasarlanabildiği için REST’i kullanması ve tasarlaması daha kolaydır.
+           SOAP için birçok geliştirme aracı mevcuttur, REST için geliştirme araçlarına ihtiyaç duyulmaz,
+tasarlaması kolaydır.
+           SOAP; XML-Scheme kullanırken REST; URI-scheme kullanır yani metotlar için URI’ler tanımlanır.
+           Her ikisi de HTTP protokolünü kullanırlar. Fakat REST için HTTP zorunluluğu varken SOAP; TCP, SMTP gibi
+başka protokollerle de çalışabilir.
+            Test ve hata ayıklama aşaması REST için daha kolaydır. Çünkü HTTP hatalarını döndürür ve bunlar bir toola
+ ihtiyaç duyulmadan görülebilir. SOAP için hata ayıklama araçları gerekebilir.
+            REST basit HTTP GET metodunu kullandığı için cacheleme işlemi daha kolaydır. SOAP ile cacheleme yapabilmek
+ için karmaşık XML requestleri yapılmalıdır.
+            İkisi de HTTPS destekler, SOAP için WS-SECURITY adlı bir eklenti mevcuttur.
+             Güvenlik açısından SOAP daha gelişmiştir çünkü hazır yapılar bulunmaktadır.
+            Dokümantasyon bakımından SOAP daha gelişmiştir ve daha fazla kaynak bulunmaktadır.
+
+
+            Projenizde lambdayı hangi aşamada ve niçin kullandınız?
